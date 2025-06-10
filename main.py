@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 from collections import defaultdict
 from urllib.parse import urljoin, urlparse
-
 class WebCrawler:
     def __init__(self):
         self.index = defaultdict(list)
