@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 from collections import defaultdict
 from urllib.parse import urljoin, urlparse
 import logging
-
 logging.basicConfig(level=logging.INFO)
 
 class WebCrawler:
